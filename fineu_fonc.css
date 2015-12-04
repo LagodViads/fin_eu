@@ -1,0 +1,10 @@
+/* mandatory */
+.euinfo .progressbar {
+    width : 100%;
+}
+.euinfo .warning {
+    display : none;
+}
+.euinfo .warning.show {
+   display : block;
+}
