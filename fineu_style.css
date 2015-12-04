@@ -1,15 +1,22 @@
-/* decoration only */ 
+/* decoration only */
+@font-face {
+      font-family: "Oswald";
+      src: url("fonts/Oswald-Light.ttf");
+}   
+body {
+    font-family: "Oswald"
+}
 .euinfo {
     width : 200px;
     border : .5em solid black ;
-    padding : 1em;
-    font-size : 80%;
+    padding : 0.7em;
+/*    font-size : 90%;*/
 /*    width : 18em;*/
 /*    border : 10px solid black */;
 /*    padding : 10px; */
     text-align : center;
     background-color : orange;
-    font-family : sans-serif;
+/*    font-family : sans-serif;*/
 }
 .euinfo .progressbar {
     border-radius : .2em;
