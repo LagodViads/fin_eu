@@ -8,7 +8,7 @@
 - barre de défilement des droits de l'homme
 - démocratie directe numérique 
 
-## journal des changemens
+## journal des changements
 
 https://www.legifrance.gouv.fr/eli/decret/2015/11/14/INTD1527633D/jo
 
