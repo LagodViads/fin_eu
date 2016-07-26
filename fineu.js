@@ -21,9 +21,10 @@ function fin_eu_startup(){
     // all needed dates infos
     function allDates(){
 	var dates = {
-	    start : new Date("2015-11-13T02:00:00.000Z"),
+	    start : new Date("2015-11-14T02:00:00.000Z"),
 	    now : new Date(),
-	    end : new Date("2016-02-26T02:00:00.000Z"),
+	    // end : new Date("2016-02-26T02:00:00.000Z"),
+	    end : new Date("2017-02-01T02:00:00.000Z"),
 	}
 	dates.isOver = dates.now >= dates.end;
 	if (dates.isOver){ dates.now = dates.end; }

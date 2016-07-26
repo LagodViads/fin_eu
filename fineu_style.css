@@ -75,6 +75,9 @@ body {
     animation-name: fiertenationale;
     animation-duration: 3s;
 }
+.bonfinalementcestbienpratique {
+    text-decoration: line-through;
+}
 
 body {
 text-align : center;
