@@ -1,0 +1,87 @@
+/* decoration only */
+@font-face {
+      font-family: "Oswald";
+      src: url("fonts/Oswald-Light.ttf");
+}   
+body {
+    font-family: "Oswald"
+}
+.euinfo {
+    width : 200px;
+    border : .5em solid black ;
+    padding : 0.7em;
+/*    font-size : 90%;*/
+/*    width : 18em;*/
+/*    border : 10px solid black */;
+/*    padding : 10px; */
+    text-align : center;
+    background-color : orange;
+/*    font-family : sans-serif;*/
+}
+.euinfo .progressbar {
+    border-radius : .2em;
+    background-color : rgb(236, 25, 32);
+}
+.euinfo #progress { 
+    padding : 0.4em;
+    border-radius : .2em;
+    background-color : green;
+}
+.euinfo span {
+    font-weight : bold;
+}
+@keyframes ondule {
+    50% {	
+	transform : rotate(-5deg);
+    }   
+}
+.euinfo img {
+    width : 100px;
+    animation-name: ondule;
+    animation-duration: 1.6s;
+}
+.euinfo #progress_text {
+    padding : 0.2em;
+}
+.euinfo button {
+    font-size : 70%;
+}
+@keyframes fiertenationale { 
+    0%   {
+	background-color: orange;
+	color : orange;
+    }
+    33%   {
+	background-color: rgb(05, 20, 64);
+	color : white;
+    }
+    66%  {
+	background-color: white;
+	color : black;
+    }
+    100%  {
+	background-color : rgb(236, 25, 32);
+	color : black;
+    }
+}
+.euinfo .warning {
+    border : 2px solid grey;
+    padding : 1em;
+}
+.euinfo .warning.show {
+    background-color:rgb(236, 25, 32);
+    color : black;
+    border-radius : .2em;
+    animation-name: fiertenationale;
+    animation-duration: 3s;
+}
+.bonfinalementcestbienpratique {
+    text-decoration: line-through;
+}
+
+body {
+text-align : center;
+   margin:0px;
+   padding:0px;
+   border:0;
+}

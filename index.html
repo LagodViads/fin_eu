@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Fin de l'état d'urgence</title>
+    <link rel="stylesheet" type="text/css" href="fineu_fonc.css">
+    <link rel="stylesheet" type="text/css" href="fineu_style.css">
+    <script src="fineu.js" ></script>
+  </head>
+  <body>
+    <div class="euinfo">
+      <div>
+	<!-- Public Domain -->
+	<img id="marianne"
+	     src="Marianne.png" 
+	     alt="Marianne, telle que peinte dans 'la liberté guidant le peuple', a la tête en bas" />
+      </div>
+      <div>
+	<p>Encore
+	  <span id="d"></span>&nbsp;jours,
+	  <span id="h"></span>&nbsp;heures,
+	  <span id="m"></span>&nbsp;minutes et
+	  <span id="s"></span>&nbsp;secondes d'état&nbsp;d'urgence !</p>
+      </div>
+      <div class="progressbar">
+	<p id="progress"><span id="progress_text"></span>%</p>
+      </div>
+      <div>
+	<p>Déclaré le <span id="start"></span>,
+	  il prend fin le <span class="bonfinalementcestbienpratique">26/11/2015</span><br/>
+	    <span class="bonfinalementcestbienpratique">26/02/2016</span><br/>
+	    <span class="bonfinalementcestbienpratique">26/05/2016</span><br/>
+	    <span class="bonfinalementcestbienpratique">26/07/2016</span><br/>
+	    <span id="end"></span>.
+	</p>
+      </div>
+      <div>
+	<button id="mercifrancoishollande"
+		href="http://www.elysee.fr/ecrire-au-president-de-la-republique">
+	  Remercier le Président de la République</button>
+	<p id="notnow" class="warning">
+	  Ce n'est pas encore le moment de remercier le président de la république. Veuillez patienter...</p>
+      </div>
+    </div>
+  </body>
+</html>
